@@ -20,16 +20,23 @@
 /* index */
     .main__paola {
         margin-top: 40px;
+        font-size: 3vw !important;
     }
 
     .indexcontainer {
-        margin-top: 15vh !important;
-        margin-left: 2em !important;
+        margin-top: 30vh;
+        margin-left: 2em;
+    }
+
+    .main__hola {
+        font-size: 28vw !important;
     }
 
 /* sobre mi y trabajos */
     .sectionmenu {
-        grid-template-areas: "a"
+        margin-top: 28vh;
+        grid-template-areas: 
+        "a"
         "b";
         gap: 20vw;
 
@@ -67,11 +74,17 @@
 
         .itema {
             margin-bottom: 0;
-            
+            a{
+                margin-left: 0;
+            }
         }
 
         .itemb {
             margin-top: 15vh;
+
+            ul {
+                padding-left: 0;
+            }
 
             a {
                 font-size: 1em !important;
@@ -81,7 +94,7 @@
 
         .itemc {
             img{
-                width: 50vw;
+                width: 70vw;
             }
         }
 
@@ -91,6 +104,20 @@
 
         .itemd {
             padding-top: 0;
+            margin-left: 10vh;
+
+            .titulos {
+                font-size: 6vh;
+            }
+        }
+
+        .itemf {
+            margin-left: 10vh;
+            padding-bottom: 15vh;
+
+            .titulos {
+                font-size: 6vh;
+            }
         }
 
     }

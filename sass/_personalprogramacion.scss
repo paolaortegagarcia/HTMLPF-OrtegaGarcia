@@ -1,4 +1,5 @@
 .contenedorgrande {
+    margin-top: 12vh;
     height: 100vh;
     display: grid;
     grid-template-areas: 
@@ -91,10 +92,17 @@
         grid-area: itemd;
         padding-top: 20vh;
         margin-bottom: 40vh;
+        margin-right: 10vh;
 
         .titulos, .fechas {
             font-family: $title-font;
+            font-size: 8vh;
             margin-bottom: 4vh;
+
+            &:hover {
+                text-decoration: underline #b1e5f2;
+            }
+            
         }
 
         p {
@@ -113,6 +121,7 @@
 
     .iteme {
         grid-area: iteme;
+        margin-top: 30vh;
         img {
             width: 60%;
         }
@@ -121,9 +130,25 @@
     .itemf {
         grid-area: itemf;
         margin-bottom: 20vh;
+        text-align: start;
+        padding-top: 15vh;
+        margin-right: 10vh;
 
         .fechas {
             font-family: $title-font;
+            color: #A6A6A8;
+        }
+
+        .titulos {
+            font-family: $title-font;
+            font-size: 8vh;
+            margin-bottom: 4vh;
+            text-align: center;
+
+            &:hover {
+                text-decoration: underline #b1e5f2;
+            }
+            
         }
 
         h4 {
@@ -132,11 +157,12 @@
 
         ul {
             font-family: $text-font;
-            text-align: center;
+            text-align: start;
+            font-size: 0.8em;
                 li {
                     font-family: $text-font;
                     list-style: none;
-                    text-align: center;
+                    text-align: start;
                 }
 
         }

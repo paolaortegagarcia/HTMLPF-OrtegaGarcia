@@ -1,19 +1,19 @@
 .indexcontainer {
-    margin-top: 1vh;
+    margin-top: 15vh;
     display: block;
     align-items: center;
     padding: 2em;
     margin-left: 5em;
 
     .main__hola {
-        font-family: $title-font;
-        font-size: 25vw;
-        margin-bottom: -50px;
-        animation: bounce 1s infinite;
+      display: inline-block;
+      font-family: $title-font;
+      font-size: 25vw;
+      animation: bounce 1s infinite;
 
-        &:hover {
-            text-shadow: 1.5vw 1.5vw #b1e5f2;
-        }
+      &:hover {
+          text-shadow: 1.5vw 1.5vw #b1e5f2;
+      }
     }
 
     @keyframes bounce {
@@ -32,6 +32,16 @@
         font-family: $text-font;
         margin-left: 9vw;
         font-size: 2vw;
+
+        .espacio {
+          margin-left: 1em;
+        }
+
+        span {
+          &:hover {
+            color:#b1e5f2;
+          }
+        }
     }
     
 }

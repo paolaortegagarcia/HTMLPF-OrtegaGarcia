@@ -3,9 +3,9 @@
 .navpao {
     font-family: $title-font;
     font-size: $nav-size;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
+    position: fixed;
+    width: 100vw;
     padding-right: 1em;
 
     ul {
@@ -60,4 +60,20 @@
 
 
 }
+
+/* links subir */
+
+.boton-subir {
+    font-family: $title-font;
+    font-size: 2.5vh;
+    float: right;
+    a{
+        color: black;
+
+        &:hover {
+            color: #a6a6a8;
+        } 
+    }
+}
+
 
