@@ -23,6 +23,7 @@ body {
   position: fixed;
   width: 100vw;
   padding-right: 1em;
+  z-index: 9999;
 }
 .navpao ul .borderpao {
   border-right: solid 1px black;
@@ -165,20 +166,26 @@ footer img {
   box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
 }
 
-.contenedorgrande {
+.contenedorgrandepersonal {
   margin-top: 12vh;
   height: 100vh;
   display: grid;
   grid-template-areas: "itema itemb" "itemc itemd" "iteme itemf" "itemg itemh" "itemi itemj";
   grid-template-columns: 1fr 3fr;
+  /* Box título */
+  /* Links Navegación Interna */
+  /* img paola */
+  /* quien soy */
+  /* img educación */
+  /* educación */
 }
-.contenedorgrande .itema {
+.contenedorgrandepersonal .itema {
   margin-top: 25vh;
   margin-bottom: 40vh;
   font-family: "Amatic SC", cursive;
   grid-area: itema;
 }
-.contenedorgrande .itema a {
+.contenedorgrandepersonal .itema a {
   text-decoration: none;
   color: black;
   font-size: 10vw;
@@ -189,179 +196,117 @@ footer img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
   box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
 }
-.contenedorgrande .itemb {
+.contenedorgrandepersonal .itemb {
   grid-area: itemb;
   margin-top: 30vh;
 }
-.contenedorgrande .itemb .linksinternos ul {
+.contenedorgrandepersonal .itemb .linksinternos ul {
   margin-top: 2vh;
   list-style: none;
   display: flex;
   justify-content: center;
   gap: 15vw;
 }
-.contenedorgrande .itemb .linksinternos ul a {
+.contenedorgrandepersonal .itemb .linksinternos ul a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5em;
   color: black;
 }
-.contenedorgrande .itemb .linksinternos ul a:hover {
+.contenedorgrandepersonal .itemb .linksinternos ul a:hover {
   color: #b1e5f2;
 }
-.contenedorgrande .itemb .linksinternosprog ul {
-  margin-top: 2vh;
-  list-style: none;
-  display: block;
-}
-.contenedorgrande .itemb .linksinternosprog ul a {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.5em;
-  color: black;
-}
-.contenedorgrande .itemb .linksinternosprog ul a:hover {
-  color: #b1e5f2;
-}
-.contenedorgrande .itemc {
+.contenedorgrandepersonal .itemc {
   grid-area: itemc;
   margin-top: 30vh;
 }
-.contenedorgrande .itemc img {
+.contenedorgrandepersonal .itemc img {
   width: 30vw;
 }
-.contenedorgrande .imagenprog {
-  margin-top: 1vh;
-}
-.contenedorgrande .itemd {
+.contenedorgrandepersonal .itemd {
   grid-area: itemd;
   padding-top: 20vh;
   margin-bottom: 40vh;
   margin-right: 10vh;
 }
-.contenedorgrande .itemd .titulos, .contenedorgrande .itemd .fechas {
+.contenedorgrandepersonal .itemd .titulos {
   font-family: "Amatic SC", cursive;
   font-size: 8vh;
   margin-bottom: 4vh;
 }
-.contenedorgrande .itemd .titulos:hover, .contenedorgrande .itemd .fechas:hover {
+.contenedorgrandepersonal .itemd .titulos:hover {
   -webkit-text-decoration: underline #b1e5f2;
           text-decoration: underline #b1e5f2;
 }
-.contenedorgrande .itemd p {
+.contenedorgrandepersonal .itemd p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 0.8em;
   text-align: start;
 }
-.contenedorgrande .itemd ul {
-  list-style: none;
-}
-.contenedorgrande .itemd ul li {
-  font-family: "Josefin Sans", sans-serif;
-}
-.contenedorgrande .iteme {
+.contenedorgrandepersonal .iteme {
   grid-area: iteme;
   margin-top: 30vh;
 }
-.contenedorgrande .iteme img {
+.contenedorgrandepersonal .iteme img {
   width: 60%;
 }
-.contenedorgrande .itemf {
+.contenedorgrandepersonal .itemf {
   grid-area: itemf;
   margin-bottom: 20vh;
   text-align: start;
   padding-top: 15vh;
   margin-right: 10vh;
 }
-.contenedorgrande .itemf .fechas {
+.contenedorgrandepersonal .itemf .fechas {
   font-family: "Amatic SC", cursive;
   color: #A6A6A8;
 }
-.contenedorgrande .itemf .titulos {
+.contenedorgrandepersonal .itemf .titulos {
   font-family: "Amatic SC", cursive;
   font-size: 8vh;
   margin-bottom: 4vh;
   text-align: center;
 }
-.contenedorgrande .itemf .titulos:hover {
+.contenedorgrandepersonal .itemf .titulos:hover {
   -webkit-text-decoration: underline #b1e5f2;
           text-decoration: underline #b1e5f2;
 }
-.contenedorgrande .itemf h4 {
+.contenedorgrandepersonal .itemf h4 {
   font-family: "Amatic SC", cursive;
 }
-.contenedorgrande .itemf ul {
-  font-family: "Josefin Sans", sans-serif;
+.contenedorgrandepersonal .itemf ul {
   text-align: start;
   font-size: 0.8em;
 }
-.contenedorgrande .itemf ul li {
+.contenedorgrandepersonal .itemf ul li {
   font-family: "Josefin Sans", sans-serif;
   list-style: none;
   text-align: start;
 }
-.contenedorgrande .itemg {
-  grid-area: itemg;
-}
-.contenedorgrande .itemg img {
-  width: 60%;
-}
-.contenedorgrande .itemh {
-  grid-area: itemh;
-  margin-bottom: 20vh;
-}
-.contenedorgrande .itemh .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrande .itemh h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrande .itemh ul {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-}
-.contenedorgrande .itemh ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
-}
-.contenedorgrande .itemi {
-  grid-area: itemi;
-}
-.contenedorgrande .itemi img {
-  width: 60%;
-}
-.contenedorgrande .itemj {
-  grid-area: itemj;
-  margin-bottom: 20vh;
-}
-.contenedorgrande .itemj .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrande .itemj h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrande .itemj ul {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-}
-.contenedorgrande .itemj ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
-}
 
-.contenedorgrandeprofdatos {
+.contenedorgrandeprogramacion {
+  margin-top: 12vh;
   height: 100vh;
   display: grid;
-  grid-template-areas: "itemb itema" "itemd itemc" "iteme itemf" "itemg itemh" "itemi itemj";
-  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "itema itemb" "itemc itemd" "iteme itemf" "itemg itemh" "itemi itemj";
+  grid-template-columns: 1fr 3fr;
+  /* Box título */
+  /* Links Navegación Interna */
+  /* img html */
+  /* texto html */
+  /* img javascript */
+  /* texto javascript */
+  /* img react */
+  /* texto react */
+  /* img backend */
+  /* texto backend */
 }
-.contenedorgrandeprofdatos .itema {
+.contenedorgrandeprogramacion .itema {
   margin-top: 25vh;
   margin-bottom: 40vh;
   font-family: "Amatic SC", cursive;
   grid-area: itema;
 }
-.contenedorgrandeprofdatos .itema a {
+.contenedorgrandeprogramacion .itema a {
   text-decoration: none;
   color: black;
   font-size: 10vw;
@@ -372,223 +317,515 @@ footer img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
   box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
 }
-.contenedorgrandeprofdatos .profsuelto {
-  margin-bottom: 2vh;
-}
-.contenedorgrandeprofdatos .itemb {
+.contenedorgrandeprogramacion .itemb {
   grid-area: itemb;
-  margin-top: 30vh;
+  margin-top: 27vh;
 }
-.contenedorgrandeprofdatos .itemb .linksinternos ul {
-  margin-top: 2vh;
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 15vw;
-}
-.contenedorgrandeprofdatos .itemb .linksinternos ul a {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.5em;
-  color: black;
-}
-.contenedorgrandeprofdatos .itemb .linksinternos ul a:hover {
-  color: #b1e5f2;
-}
-.contenedorgrandeprofdatos .itemb .linksinternosdat ul {
+.contenedorgrandeprogramacion .itemb .linksinternos ul {
   margin-top: 2vh;
   list-style: none;
   display: block;
 }
-.contenedorgrandeprofdatos .itemb .linksinternosdat ul a {
+.contenedorgrandeprogramacion .itemb .linksinternos ul a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5em;
   color: black;
 }
-.contenedorgrandeprofdatos .itemb .linksinternosdat ul a:hover {
+.contenedorgrandeprogramacion .itemb .linksinternos ul a:hover {
   color: #b1e5f2;
 }
-.contenedorgrandeprofdatos .itemc {
+.contenedorgrandeprogramacion .itemc {
+  grid-area: itemc;
+  margin-top: 15vh;
+}
+.contenedorgrandeprogramacion .itemc img {
+  width: 30vw;
+}
+.contenedorgrandeprogramacion .itemd {
+  grid-area: itemd;
+  padding-top: 20vh;
+  margin-bottom: 40vh;
+  margin-right: 10vh;
+}
+.contenedorgrandeprogramacion .itemd .titulos {
+  font-family: "Amatic SC", cursive;
+  font-size: 8vh;
+  margin-bottom: 4vh;
+}
+.contenedorgrandeprogramacion .itemd .titulos:hover {
+  -webkit-text-decoration: underline #b1e5f2;
+          text-decoration: underline #b1e5f2;
+}
+.contenedorgrandeprogramacion .itemd ul {
+  list-style: none;
+}
+.contenedorgrandeprogramacion .itemd ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprogramacion .iteme {
+  grid-area: iteme;
+  margin-top: 20vh;
+}
+.contenedorgrandeprogramacion .iteme img {
+  width: 30vw;
+}
+.contenedorgrandeprogramacion .itemf {
+  grid-area: itemf;
+  margin-bottom: 60vh;
+  text-align: start;
+  padding-top: 30vh;
+  margin-right: 10vh;
+}
+.contenedorgrandeprogramacion .itemf .titulos {
+  font-family: "Amatic SC", cursive;
+  font-size: 8vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+.contenedorgrandeprogramacion .itemf .titulos:hover {
+  -webkit-text-decoration: underline #b1e5f2;
+          text-decoration: underline #b1e5f2;
+}
+.contenedorgrandeprogramacion .itemf ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+  font-size: 0.8em;
+}
+.contenedorgrandeprogramacion .itemf ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrandeprogramacion .itemg {
+  grid-area: itemg;
+  margin-top: 20vh;
+}
+.contenedorgrandeprogramacion .itemg img {
+  width: 40vw;
+}
+.contenedorgrandeprogramacion .itemh {
+  grid-area: itemh;
+  margin-bottom: 60vh;
+  text-align: start;
+  padding-top: 30vh;
+  margin-right: 10vh;
+}
+.contenedorgrandeprogramacion .itemh .titulos {
+  font-family: "Amatic SC", cursive;
+  font-size: 8vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+.contenedorgrandeprogramacion .itemh .titulos:hover {
+  -webkit-text-decoration: underline #b1e5f2;
+          text-decoration: underline #b1e5f2;
+}
+.contenedorgrandeprogramacion .itemh ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+  font-size: 0.8em;
+}
+.contenedorgrandeprogramacion .itemh ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+.contenedorgrandeprogramacion .itemi {
+  grid-area: itemi;
+  margin-top: 20vh;
+}
+.contenedorgrandeprogramacion .itemi img {
+  width: 40vw;
+}
+.contenedorgrandeprogramacion .itemj {
+  grid-area: itemj;
+  margin-bottom: 60vh;
+  text-align: start;
+  padding-top: 30vh;
+  margin-right: 10vh;
+}
+.contenedorgrandeprogramacion .itemj .titulos {
+  font-family: "Amatic SC", cursive;
+  font-size: 8vh;
+  margin-bottom: 4vh;
+  text-align: center;
+}
+.contenedorgrandeprogramacion .itemj .titulos:hover {
+  -webkit-text-decoration: underline #b1e5f2;
+          text-decoration: underline #b1e5f2;
+}
+.contenedorgrandeprogramacion .itemj ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+  font-size: 0.8em;
+}
+.contenedorgrandeprogramacion .itemj ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+  text-align: center;
+}
+
+.contenedorgrandeprofesional {
+  margin-top: 12vh;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "itemb itema" "itemd itemc" "iteme itemf" "itemg itemh" "itemi itemj" "itemk iteml";
+  grid-template-columns: 3fr 1fr;
+  /* Box titulo */
+  /* links navegacion interna */
+  /* posicion actual */
+  /* sr associate */
+  /* resource coordinator */
+  /* supervisora */
+  /* barista */
+  /* eventos */
+  /* fechas */
+  /* titulos */
+  /* subtitulos */
+}
+.contenedorgrandeprofesional .itema {
+  margin-top: 25vh;
+  margin-bottom: 10vh;
+  margin-right: 6vh;
+  font-family: "Amatic SC", cursive;
+  grid-area: itema;
+}
+.contenedorgrandeprofesional .itema a {
+  text-decoration: none;
+  color: black;
+  font-size: 10vw;
+  padding: 0.2em 0.7em;
+  margin-left: 5vh;
+  border: solid black;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+}
+.contenedorgrandeprofesional .itemb {
+  grid-area: itemb;
+  margin-top: 30vh;
+}
+.contenedorgrandeprofesional .itemb .linksinternos ul {
+  margin-top: 2vh;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+}
+.contenedorgrandeprofesional .itemb .linksinternos ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+.contenedorgrandeprofesional .itemb .linksinternos ul a:hover {
+  color: #b1e5f2;
+}
+.contenedorgrandeprofesional .itemc {
+  grid-area: itemc;
+  margin-top: 0;
+  margin-bottom: 20vh;
+  font-family: "Josefin Sans", sans-serif;
+  margin-right: 5vh;
+  margin-left: 5vh;
+}
+.contenedorgrandeprofesional .itemc img {
+  width: 30vw;
+}
+.contenedorgrandeprofesional .iteme {
+  grid-area: iteme;
+  padding-top: 10vh;
+  margin-bottom: 10vh;
+}
+.contenedorgrandeprofesional .iteme ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.contenedorgrandeprofesional .iteme ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofesional .itemf {
+  grid-area: itemf;
+  margin-bottom: 20vh;
+  padding-top: 30vh;
+}
+.contenedorgrandeprofesional .itemf ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+  margin-top: 5vh;
+  margin-left: 15vh;
+}
+.contenedorgrandeprofesional .itemf ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+}
+.contenedorgrandeprofesional .itemg {
+  grid-area: itemg;
+  margin-bottom: 10vh;
+}
+.contenedorgrandeprofesional .itemg ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.contenedorgrandeprofesional .itemg ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofesional .itemh {
+  grid-area: itemh;
+}
+.contenedorgrandeprofesional .itemh ul {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: start;
+  margin-top: 5vh;
+  margin-left: 15vh;
+}
+.contenedorgrandeprofesional .itemh ul li {
+  font-family: "Josefin Sans", sans-serif;
+  list-style: none;
+}
+.contenedorgrandeprofesional .itemi {
+  grid-area: itemi;
+  margin-bottom: 30vh;
+}
+.contenedorgrandeprofesional .itemi ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.contenedorgrandeprofesional .itemi ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofesional .fechas {
+  font-family: "Amatic SC", cursive;
+  color: #A6A6A8;
+}
+.contenedorgrandeprofesional .titulos {
+  font-family: "Amatic SC", cursive;
+  font-size: 8vh;
+  margin-bottom: 10vh;
+}
+.contenedorgrandeprofesional .titulos:hover {
+  -webkit-text-decoration: underline #b1e5f2;
+          text-decoration: underline #b1e5f2;
+}
+.contenedorgrandeprofesional h4 {
+  font-family: "Amatic SC", cursive;
+}
+.contenedorgrandeprofesional .itemk {
+  grid-area: itemk;
+  padding-top: 30vh;
+  margin-bottom: 10vh;
+}
+.contenedorgrandeprofesional .itemk ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.contenedorgrandeprofesional .itemk ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandeprofesional .iteml {
+  grid-area: iteml;
+  padding-top: 50vh;
+  margin-bottom: 10vh;
+  padding-bottom: 30vh;
+  margin-right: 10vh;
+}
+.contenedorgrandeprofesional .iteml ul {
+  list-style: none;
+  text-align: start;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.contenedorgrandeprofesional .iteml ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.contenedorgrandedatos {
+  margin-top: 12vh;
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "itemb itema" "itemd itemc" "iteme itemf" "itemg itemh" "itemi itemj";
+  grid-template-columns: 3fr 1fr;
+  /* Box titulo */
+  /* links navegación interna */
+  /* img excel */
+  /* texto excel */
+  /* img sql */
+  /* texto sql */
+  /* img power bi */
+  /* texto power bi */
+  /* img python */
+  /* texto python */
+}
+.contenedorgrandedatos .itema {
+  margin-top: 25vh;
+  margin-bottom: 40vh;
+  margin-right: 6vh;
+  font-family: "Amatic SC", cursive;
+  grid-area: itema;
+}
+.contenedorgrandedatos .itema a {
+  text-decoration: none;
+  color: black;
+  font-size: 10vw;
+  padding: 0.2em 0.7em;
+  margin-left: 5vh;
+  border: solid black;
+  background-color: #FFFFFF;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23B1E5F2' fill-opacity='0.52' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+  box-shadow: 1.5vw 1vw 0.5vw #A6A6A8;
+}
+.contenedorgrandedatos .itemb {
+  grid-area: itemb;
+  margin-top: 30vh;
+}
+.contenedorgrandedatos .itemb .linksinternos ul {
+  margin-top: 2vh;
+  list-style: none;
+  display: block;
+}
+.contenedorgrandedatos .itemb .linksinternos ul a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+.contenedorgrandedatos .itemb .linksinternos ul a:hover {
+  color: #b1e5f2;
+}
+.contenedorgrandedatos .itemc {
   grid-area: itemc;
   margin-top: 20vh;
   margin-bottom: 20vh;
   font-family: "Josefin Sans", sans-serif;
+  padding-top: 20vh;
 }
-.contenedorgrandeprofdatos .itemc img {
+.contenedorgrandedatos .itemc img {
   width: 30vw;
 }
-.contenedorgrandeprofdatos .itemd {
+.contenedorgrandedatos .itemd {
   grid-area: itemd;
-  padding-top: 20vh;
+  padding-top: 40vh;
   margin-bottom: 40vh;
 }
-.contenedorgrandeprofdatos .itemd .titulos, .contenedorgrandeprofdatos .itemd .fechas {
+.contenedorgrandedatos .itemd ul {
+  list-style: none;
+}
+.contenedorgrandedatos .itemd ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandedatos .itemf {
+  grid-area: itemf;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20vh;
+}
+.contenedorgrandedatos .itemf img {
+  width: 30vw;
+}
+.contenedorgrandedatos .iteme {
+  grid-area: iteme;
+  padding-top: 40vh;
+  margin-bottom: 40vh;
+}
+.contenedorgrandedatos .iteme ul {
+  list-style: none;
+}
+.contenedorgrandedatos .iteme ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandedatos .itemh {
+  grid-area: itemh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20vh;
+}
+.contenedorgrandedatos .itemh img {
+  width: 30vw;
+}
+.contenedorgrandedatos .itemg {
+  grid-area: itemg;
+  padding-top: 40vh;
+  margin-bottom: 40vh;
+}
+.contenedorgrandedatos .itemg ul {
+  list-style: none;
+}
+.contenedorgrandedatos .itemg ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandedatos .itemj {
+  grid-area: itemj;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 20vh;
+  padding-bottom: 40vh;
+}
+.contenedorgrandedatos .itemj img {
+  width: 30vw;
+}
+.contenedorgrandedatos .itemi {
+  grid-area: itemi;
+  padding-top: 40vh;
+  margin-bottom: 40vh;
+}
+.contenedorgrandedatos .itemi ul {
+  list-style: none;
+}
+.contenedorgrandedatos .itemi ul li {
+  font-family: "Josefin Sans", sans-serif;
+}
+.contenedorgrandedatos .titulos {
   font-family: "Amatic SC", cursive;
   margin-bottom: 4vh;
-}
-.contenedorgrandeprofdatos .itemd p {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 0.8em;
-  text-align: start;
-}
-.contenedorgrandeprofdatos .itemd ul {
-  list-style: none;
-}
-.contenedorgrandeprofdatos .itemd ul li {
-  font-family: "Josefin Sans", sans-serif;
-}
-.contenedorgrandeprofdatos .iteme {
-  grid-area: iteme;
-  padding-top: 20vh;
-}
-.contenedorgrandeprofdatos .iteme .titulos, .contenedorgrandeprofdatos .iteme .fechas, .contenedorgrandeprofdatos .iteme p, .contenedorgrandeprofdatos .iteme h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .iteme p {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 0.8em;
-  text-align: start;
-}
-.contenedorgrandeprofdatos .iteme ul {
-  list-style: none;
-}
-.contenedorgrandeprofdatos .iteme ul li {
-  font-family: "Josefin Sans", sans-serif;
-}
-.contenedorgrandeprofdatos .itemf {
-  grid-area: itemf;
-  margin-bottom: 20vh;
-  padding-top: 20vh;
-}
-.contenedorgrandeprofdatos .itemf img {
-  width: 30vw;
-}
-.contenedorgrandeprofdatos .itemf .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemf h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemf ul {
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 8vh;
   text-align: center;
 }
-.contenedorgrandeprofdatos .itemf ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
+.contenedorgrandedatos .titulos:hover {
+  -webkit-text-decoration: underline #b1e5f2;
+          text-decoration: underline #b1e5f2;
 }
-.contenedorgrandeprofdatos .itemg {
-  grid-area: itemg;
-  margin-bottom: 20vh;
-}
-.contenedorgrandeprofdatos .itemg .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemg h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemg ul {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemg ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemh {
-  grid-area: itemh;
-  margin-bottom: 50vh;
-}
-.contenedorgrandeprofdatos .itemh img {
-  width: 30vw;
-}
-.contenedorgrandeprofdatos .itemh .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemh h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemh ul {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemh ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemi {
-  grid-area: itemi;
-  margin-bottom: 20vh;
-}
-.contenedorgrandeprofdatos .itemi .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemi h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemi ul {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemi ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemj {
-  grid-area: itemj;
-  margin-bottom: 50vh;
-}
-.contenedorgrandeprofdatos .itemj img {
-  width: 30vw;
-}
-.contenedorgrandeprofdatos .itemj .fechas {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemj h4 {
-  font-family: "Amatic SC", cursive;
-}
-.contenedorgrandeprofdatos .itemj ul {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-}
-.contenedorgrandeprofdatos .itemj ul li {
-  font-family: "Josefin Sans", sans-serif;
-  list-style: none;
-  text-align: center;
+.contenedorgrandedatos .boton-subir {
+  float: left;
+  margin-left: 20vw;
 }
 
-.sectionmenu__c p {
+.sectionmenu .sectionmenu__c p {
   margin-top: -3vw;
   margin-bottom: -3vw;
   font-size: 10vw;
 }
-.sectionmenu__c p:hover {
+.sectionmenu .sectionmenu__c p:hover {
   text-shadow: 1.5vw 1.5vw #b1e5f2;
 }
-
-.sectionmenu__d {
+.sectionmenu .sectionmenu__d {
   font-family: "Josefin Sans", sans-serif;
 }
-.sectionmenu__d .contactopao {
+.sectionmenu .sectionmenu__d .contactopao {
   margin-top: -5vw;
   margin-bottom: 5vw;
 }
-.sectionmenu__d .contactopao ul li {
+.sectionmenu .sectionmenu__d .contactopao ul li {
   list-style: none;
 }
-.sectionmenu__d .contactopao ul li a {
+.sectionmenu .sectionmenu__d .contactopao ul li a {
   color: black;
 }
-.sectionmenu__d .contactopao ul li a:hover {
+.sectionmenu .sectionmenu__d .contactopao ul li a:hover {
   color: #b1e5f2;
 }
-.sectionmenu__d .formulariopao .formularionombre {
+.sectionmenu .sectionmenu__d .formulariopao .formularionombre {
   margin-bottom: 2vw;
 }
-.sectionmenu__d .formulariopao .formularioemail {
+.sectionmenu .sectionmenu__d .formulariopao .formularioemail {
   margin-bottom: 2vw;
 }
 
@@ -624,88 +861,315 @@ footer img {
   .sectionmenu .sectionmenu__b a {
     padding: 0.5em 1em;
   }
-  /* personal programacion */
-  .contenedorgrande {
-    grid-template-areas: "itema" "itemb" "itemc" "itemd" "iteme" "itemf" "itemg" "itemh" "itemi" "itemj";
+  /* personal */
+  .contenedorgrandepersonal {
+    grid-template-areas: "itema" "itemb" "itemd" "itemc" "itemf" "iteme";
     grid-template-columns: 1fr;
+    /* Box título */
+    /* Links Navegación Interna */
+    /* img paola */
+    /* quien soy */
+    /* img educacion */
+    /* educación */
   }
-  .contenedorgrande .itema {
+  .contenedorgrandepersonal .itema {
     margin-bottom: 0;
   }
-  .contenedorgrande .itema a {
+  .contenedorgrandepersonal .itema a {
     margin-left: 0;
   }
-  .contenedorgrande .itemb {
+  .contenedorgrandepersonal .itemb {
     margin-top: 15vh;
   }
-  .contenedorgrande .itemb ul {
+  .contenedorgrandepersonal .itemb ul {
     padding-left: 0;
   }
-  .contenedorgrande .itemb a {
+  .contenedorgrandepersonal .itemb a {
     font-size: 1em !important;
   }
-  .contenedorgrande .itemc img {
-    width: 70vw;
-  }
-  .contenedorgrande .imagenprog {
-    margin-top: 20vh;
-  }
-  .contenedorgrande .itemd {
-    padding-top: 0;
-    margin-left: 10vh;
-  }
-  .contenedorgrande .itemd .titulos {
-    font-size: 6vh;
-  }
-  .contenedorgrande .itemf {
-    margin-left: 10vh;
-    padding-bottom: 15vh;
-  }
-  .contenedorgrande .itemf .titulos {
-    font-size: 6vh;
-  }
-  /* profesonal datos */
-  .contenedorgrandeprofdatos {
-    grid-template-areas: "itema" "itemb" "itemc" "itemd" "itemf" "iteme" "itemh" "itemg" "itemj" "itemi";
-    grid-template-columns: 1fr;
-  }
-  .contenedorgrandeprofdatos .itema {
-    margin-bottom: 0;
-  }
-  .contenedorgrandeprofdatos .itemb {
-    margin-top: 15vh;
-  }
-  .contenedorgrandeprofdatos .itemb a {
-    font-size: 1em !important;
-  }
-  .contenedorgrandeprofdatos .itemc {
-    margin-bottom: 0;
-  }
-  .contenedorgrandeprofdatos .itemd {
-    padding-top: 2vh;
-    margin-bottom: 20vh;
-  }
-  .contenedorgrandeprofdatos .itemf {
-    margin-bottom: 0;
-  }
-  .contenedorgrandeprofdatos .iteme {
-    padding-top: 2vh;
+  .contenedorgrandepersonal .itemc {
+    margin-top: 0;
     margin-bottom: 30vh;
   }
-  .contenedorgrandeprofdatos .itemh {
+  .contenedorgrandepersonal .itemc img {
+    width: 70vw;
+  }
+  .contenedorgrandepersonal .itemd {
+    margin-top: 30vh;
+    padding-top: 10vh;
+    margin-left: 10vh;
     margin-bottom: 0;
   }
-  .contenedorgrandeprofdatos .itemg {
-    padding-top: 2vh;
+  .contenedorgrandepersonal .itemd .titulos {
+    font-size: 4vh;
   }
-  .contenedorgrandeprofdatos .itemj {
+  .contenedorgrandepersonal .iteme {
+    margin-top: 0;
+    padding-bottom: 15vh;
+  }
+  .contenedorgrandepersonal .iteme img {
+    width: 70vw;
+  }
+  .contenedorgrandepersonal .itemf {
+    margin-left: 10vh;
+    padding-bottom: 0;
     margin-bottom: 0;
   }
-  .contenedorgrandeprofdatos .itemi {
-    padding-top: 2vh;
+  .contenedorgrandepersonal .itemf .titulos {
+    font-size: 6vh;
+  }
+  /* programacion */
+  .contenedorgrandeprogramacion {
+    grid-template-areas: "itema" "itemb" "itemd" "itemc" "itemf" "iteme" "itemh" "itemg" "itemj" "itemi";
+    grid-template-columns: 1fr;
+    /* Box título */
+    /* Links Navegación Interna */
+    /* img html */
+    /* texto html */
+    /* img javascript */
+    /* texto javascript */
+    /* img react */
+    /* texto react */
+    /* img backend */
+    /* texto backend */
+  }
+  .contenedorgrandeprogramacion .itema {
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprogramacion .itema a {
+    margin-left: 0;
+  }
+  .contenedorgrandeprogramacion .itemb {
+    margin-top: 15vh;
+  }
+  .contenedorgrandeprogramacion .itemb ul {
+    padding-left: 0;
+  }
+  .contenedorgrandeprogramacion .itemb a {
+    font-size: 1em !important;
+  }
+  .contenedorgrandeprogramacion .itemc {
+    margin-top: 0;
+  }
+  .contenedorgrandeprogramacion .itemc img {
+    width: 50vw;
+  }
+  .contenedorgrandeprogramacion .itemd {
+    padding-top: 30vh;
+    margin-left: 10vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprogramacion .itemd .titulos {
+    font-size: 6vh;
+  }
+  .contenedorgrandeprogramacion .iteme {
+    margin-top: 0;
+  }
+  .contenedorgrandeprogramacion .iteme img {
+    width: 50vw;
+  }
+  .contenedorgrandeprogramacion .itemf {
+    padding-top: 25vh;
+    margin-left: 10vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprogramacion .itemf .titulos {
+    font-size: 6vh;
+  }
+  .contenedorgrandeprogramacion .itemg {
+    margin-top: 0;
+  }
+  .contenedorgrandeprogramacion .itemg img {
+    width: 50vw;
+  }
+  .contenedorgrandeprogramacion .itemh {
+    padding-top: 25vh;
+    margin-left: 10vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprogramacion .itemh .titulos {
+    font-size: 6vh;
+  }
+  .contenedorgrandeprogramacion .itemi {
+    margin-top: 0;
     padding-bottom: 10vh;
   }
+  .contenedorgrandeprogramacion .itemi img {
+    width: 50vw;
+  }
+  .contenedorgrandeprogramacion .itemj {
+    padding-top: 25vh;
+    margin-left: 10vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprogramacion .itemj .titulos {
+    font-size: 6vh;
+  }
+  /* profesional */
+  .contenedorgrandeprofesional {
+    grid-template-areas: "itema" "itemb" "itemc" "itemd" "iteme" "itemf" "itemg" "itemh" "itemi" "itemj" "itemk" "iteml";
+    grid-template-columns: 1fr;
+    /* Box título */
+    /* Links Navegación Interna */
+    /* posicion actual */
+    /* sr associate */
+    /* resource coordinator */
+    /* supervisora */
+    /* barista */
+    /* eventos */
+    /* habilidades */
+  }
+  .contenedorgrandeprofesional .itema {
+    margin-bottom: 0;
+    margin-left: 6vh;
+  }
+  .contenedorgrandeprofesional .itema a {
+    margin-left: 0;
+  }
+  .contenedorgrandeprofesional .itemb {
+    margin-top: 10vh;
+  }
+  .contenedorgrandeprofesional .itemb ul {
+    padding-left: 0;
+  }
+  .contenedorgrandeprofesional .itemb a {
+    font-size: 1em !important;
+  }
+  .contenedorgrandeprofesional .itemc {
+    margin-top: 10vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandeprofesional .iteme {
+    margin-top: 15vh;
+    padding-top: 10vh;
+    margin-left: -15vh;
+    margin-right: 5vh;
+  }
+  .contenedorgrandeprofesional .itemf {
+    padding-top: 0;
+    margin-left: -15vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+  }
+  .contenedorgrandeprofesional .itemg {
+    padding-top: 0;
+    margin-left: -15vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+  }
+  .contenedorgrandeprofesional .itemh {
+    padding-top: 0;
+    margin-left: -15vh;
+    margin-right: 5vh;
+    margin-bottom: 5vh;
+  }
+  .contenedorgrandeprofesional .itemi {
+    padding-top: 0;
+    margin-left: -15vh;
+    margin-right: 5vh;
+  }
+  .contenedorgrandeprofesional .itemi .boton-subir {
+    margin-right: 20vh;
+  }
+  .contenedorgrandeprofesional .itemk {
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+    margin-left: -15vh;
+    margin-right: 5vh;
+  }
+  .contenedorgrandeprofesional .iteml {
+    padding-top: 0;
+    margin-bottom: 5vh;
+    margin-left: -15vh;
+    margin-right: 5vh;
+  }
+  .contenedorgrandeprofesional .titulos {
+    margin-left: 20vh;
+  }
+  /* datos */
+  .contenedorgrandedatos {
+    grid-template-areas: "itema" "itemb" "itemd" "itemc" "iteme" "itemf" "itemg" "itemh" "itemi" "itemj";
+    grid-template-columns: 1fr;
+    /* Box título */
+    /* Links Navegación Interna */
+    /* img excel */
+    /* texto excel */
+    /* img sql */
+    /* texto sql */
+    /* img powerbi */
+    /* texto powerbi */
+    /* img python */
+    /* texto python */
+  }
+  .contenedorgrandedatos .itema {
+    margin-bottom: 0;
+    margin-left: 6vh;
+  }
+  .contenedorgrandedatos .itema a {
+    margin-left: 0;
+  }
+  .contenedorgrandedatos .itemb {
+    margin-top: 10vh;
+  }
+  .contenedorgrandedatos .itemb ul {
+    padding-left: 0;
+  }
+  .contenedorgrandedatos .itemb a {
+    font-size: 1em !important;
+  }
+  .contenedorgrandedatos .itemc {
+    margin-top: 0;
+    margin-bottom: 20vh;
+    padding-top: 0;
+  }
+  .contenedorgrandedatos .itemd {
+    margin-top: 15vh;
+    padding-top: 10vh;
+    margin-bottom: 0;
+    margin-right: 5vh;
+  }
+  .contenedorgrandedatos .itemf {
+    margin-top: 0;
+    margin-bottom: 20vh;
+    padding-top: 0;
+  }
+  .contenedorgrandedatos .iteme {
+    margin-top: 15vh;
+    padding-top: 10vh;
+    margin-bottom: 0;
+    margin-right: 5vh;
+  }
+  .contenedorgrandedatos .itemh {
+    margin-top: 0;
+    margin-bottom: 20vh;
+    padding-top: 0;
+  }
+  .contenedorgrandedatos .itemg {
+    margin-top: 15vh;
+    padding-top: 10vh;
+    margin-right: 5vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandedatos .itemj {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 50vh;
+  }
+  .contenedorgrandedatos .itemi {
+    margin-top: 15vh;
+    padding-top: 10vh;
+    margin-right: 5vh;
+    margin-bottom: 0;
+  }
+  .contenedorgrandedatos .boton-subir {
+    margin-left: 35vw;
+  }
+  /* contacto */
+  .sectionmenu__c {
+    margin-top: -5vh;
+  }
   .formulariopao {
-    padding-bottom: 40vh;
+    padding-bottom: 30vh;
   }
 }/*# sourceMappingURL=main.css.map */

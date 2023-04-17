@@ -1,48 +1,51 @@
-.sectionmenu__c {
-    p {
-        margin-top: -3vw;
-        margin-bottom: -3vw;
-        font-size: 10vw;
+.sectionmenu {
 
-        &:hover {
-            text-shadow: 1.5vw 1.5vw #b1e5f2;
+    .sectionmenu__c {
+        p {
+            margin-top: -3vw;
+            margin-bottom: -3vw;
+            font-size: 10vw;
+
+            &:hover {
+                text-shadow: 1.5vw 1.5vw #b1e5f2;
+            }
         }
     }
-}
 
-.sectionmenu__d {
-    font-family: $text-font;
+    .sectionmenu__d {
+        font-family: $text-font;
 
-    .contactopao {
-        margin-top: -5vw;
-        margin-bottom: 5vw;
-        
-        ul {
+        .contactopao {
+            margin-top: -5vw;
+            margin-bottom: 5vw;
+            
+            ul {
 
-            li {
-                list-style: none;
+                li {
+                    list-style: none;
 
-                a{ 
-                    color: black;
+                    a{ 
+                        color: black;
 
-                    &:hover {
-                        color: #b1e5f2 ;
+                        &:hover {
+                            color: #b1e5f2 ;
+                        }
                     }
                 }
+
+            }  
+        }
+
+        .formulariopao {
+            
+            
+            .formularionombre {
+                margin-bottom: 2vw;
             }
 
-        }  
-    }
-
-    .formulariopao {
-        
-        
-        .formularionombre {
-            margin-bottom: 2vw;
+            .formularioemail {
+                margin-bottom: 2vw;
+            }
         }
-
-        .formularioemail {
-            margin-bottom: 2vw;
-        }
-    }
-}  
+    }  
+}

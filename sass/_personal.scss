@@ -1,4 +1,4 @@
-.contenedorgrande {
+.contenedorgrandepersonal {
     margin-top: 12vh;
     height: 100vh;
     display: grid;
@@ -10,6 +10,7 @@
     "itemi itemj";
     grid-template-columns: 1fr 3fr;
 
+    /* Box título */
     .itema {
         margin-top: 25vh;
         margin-bottom: 40vh;
@@ -29,6 +30,7 @@
         }
     }
 
+    /* Links Navegación Interna */
     .itemb {
         grid-area: itemb;
         margin-top: 30vh;
@@ -54,28 +56,9 @@
             }
             
         }
-
-        .linksinternosprog {
-            ul {
-                margin-top: 2vh;
-                list-style: none;
-                display: block;
-
-                a {
-                    font-family: $text-font;
-                    font-size: 1.5em;
-                    color: black;
-
-                    &:hover {
-                        color: #b1e5f2;
-                    }
-                }
-            }
-        }
-        
     }
 
-    
+    /* img paola */
     .itemc {
         grid-area: itemc;
         margin-top: 30vh;
@@ -84,17 +67,14 @@
         }
     }
 
-    .imagenprog {
-        margin-top: 1vh;
-    }
-
+    /* quien soy */
     .itemd {
         grid-area: itemd;
         padding-top: 20vh;
         margin-bottom: 40vh;
         margin-right: 10vh;
 
-        .titulos, .fechas {
+        .titulos {
             font-family: $title-font;
             font-size: 8vh;
             margin-bottom: 4vh;
@@ -110,15 +90,9 @@
             font-size: 0.8em;
             text-align: start;
         }
-
-        ul {
-            list-style: none;
-            li{
-                font-family: $text-font;
-            }
-        }
     }
 
+    /* img educación */
     .iteme {
         grid-area: iteme;
         margin-top: 30vh;
@@ -127,6 +101,7 @@
         }
     }
 
+    /* educación */
     .itemf {
         grid-area: itemf;
         margin-bottom: 20vh;
@@ -156,7 +131,6 @@
         }
 
         ul {
-            font-family: $text-font;
             text-align: start;
             font-size: 0.8em;
                 li {
@@ -168,67 +142,6 @@
         }
     }
 
-    .itemg {
-        grid-area: itemg;
-        img {
-            width: 60%;
-        }
-    }
-
-    .itemh {
-        grid-area: itemh;
-        margin-bottom: 20vh;
-
-        .fechas {
-            font-family: $title-font;
-        }
-
-        h4 {
-            font-family: $title-font;
-        }
-
-        ul {
-            font-family: $text-font;
-            text-align: center;
-                li {
-                    font-family: $text-font;
-                    list-style: none;
-                    text-align: center;
-                }
-
-        }
-    }
-
-    .itemi {
-        grid-area: itemi;
-        img {
-            width: 60%;
-        }
-    }
-
-    .itemj {
-        grid-area: itemj;
-        margin-bottom: 20vh;
-
-        .fechas {
-            font-family: $title-font;
-        }
-
-        h4 {
-            font-family: $title-font;
-        }
-
-        ul {
-            font-family: $text-font;
-            text-align: center;
-                li {
-                    font-family: $text-font;
-                    list-style: none;
-                    text-align: center;
-                }
-
-        }
-    }
 }
 
 

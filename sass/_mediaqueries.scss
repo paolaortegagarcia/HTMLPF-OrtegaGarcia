@@ -56,22 +56,19 @@
         
     }
 
-/* personal programacion */
+/* personal */
 
-    .contenedorgrande {
+    .contenedorgrandepersonal {
         grid-template-areas: 
         "itema"
         "itemb"
-        "itemc"
         "itemd"
-        "iteme"
+        "itemc"
         "itemf"
-        "itemg"
-        "itemh"
-        "itemi"
-        "itemj";
+        "iteme";
         grid-template-columns: 1fr;
 
+    /* Box título */
         .itema {
             margin-bottom: 0;
             a{
@@ -79,6 +76,7 @@
             }
         }
 
+    /* Links Navegación Interna */
         .itemb {
             margin-top: 15vh;
 
@@ -92,28 +90,41 @@
             
         }
 
+    /* img paola */
         .itemc {
+            margin-top: 0;
+            margin-bottom: 30vh;
             img{
                 width: 70vw;
             }
         }
 
-        .imagenprog {
-            margin-top: 20vh;
-        }
-
+    /* quien soy */
         .itemd {
-            padding-top: 0;
+            margin-top: 30vh;
+            padding-top: 10vh;
             margin-left: 10vh;
+            margin-bottom: 0;
 
             .titulos {
-                font-size: 6vh;
+                font-size: 4vh;
             }
         }
 
+    /* img educacion */
+        .iteme {
+            margin-top: 0;
+            padding-bottom: 15vh;
+            img{
+                width: 70vw;
+            }
+        }
+        
+    /* educación */
         .itemf {
             margin-left: 10vh;
-            padding-bottom: 15vh;
+            padding-bottom: 0;
+            margin-bottom: 0;
 
             .titulos {
                 font-size: 6vh;
@@ -123,14 +134,14 @@
     }
 
 
-/* profesonal datos */
+/* programacion */
 
-    .contenedorgrandeprofdatos {
+    .contenedorgrandeprogramacion {
         grid-template-areas: 
         "itema"
         "itemb"
-        "itemc"
         "itemd"
+        "itemc"
         "itemf"
         "iteme"
         "itemh"
@@ -139,56 +150,336 @@
         "itemi";
         grid-template-columns: 1fr;
 
+    /* Box título */
         .itema {
             margin-bottom: 0;
-        }
-
-        .itemb {
-            margin-top: 15vh;
-            a {
-                font-size: 1em !important;
+            a{
+                margin-left: 0;
             }
         }
 
-        .itemc {
-            margin-bottom: 0;
-        }
+    /* Links Navegación Interna */
+        .itemb {
+            margin-top: 15vh;
 
-        .itemd {
-            padding-top: 2vh;
-            margin-bottom: 20vh;
-        }
+            ul {
+                padding-left: 0;
+            }
 
-        .itemf {
-            margin-bottom: 0;
-        }
-
-        .iteme {
-            padding-top: 2vh;
-            margin-bottom: 30vh;
-        }
-
-        .itemh {
-            margin-bottom: 0;
-        }
-
-        .itemg {
-            padding-top: 2vh;
-        }
-
-        .itemj {
-            margin-bottom: 0;
-        }
-
-        .itemi {
-            padding-top: 2vh;
-            padding-bottom: 10vh;
+            a {
+                font-size: 1em !important;
+            }
             
         }
+
+    /* img html */
+        .itemc {
+            margin-top: 0;
+            img{
+                width: 50vw;
+            }
+        }
+
+    /* texto html */    
+        .itemd {
+            padding-top: 30vh;
+            margin-left: 10vh;
+            margin-bottom: 0;
+
+            .titulos {
+                font-size: 6vh;
+            }
+        }
+
+        /* img javascript */ 
+        .iteme {
+            margin-top: 0;
+            img{
+                width: 50vw;
+            }
+        }
+
+        /* texto javascript */ 
+        .itemf {
+            padding-top: 25vh;
+            margin-left: 10vh;
+            margin-bottom: 0;
+
+            .titulos {
+                font-size: 6vh;
+            }
+        }
+
+        /* img react */ 
+        .itemg {
+            margin-top: 0;
+            img{
+                width: 50vw;
+            }
+        }
+
+        /* texto react */ 
+        .itemh {
+            padding-top: 25vh;
+            margin-left: 10vh;
+            margin-bottom: 0;
+
+            .titulos {
+                font-size: 6vh;
+            }
+        }
+
+        /* img backend */ 
+        .itemi {
+            margin-top: 0;
+            padding-bottom: 10vh;
+            img{
+                width: 50vw;
+            }
+        }
+
+        /* texto backend */ 
+        .itemj {
+            padding-top: 25vh;
+            margin-left: 10vh;
+            margin-bottom: 0;
+
+            .titulos {
+                font-size: 6vh;
+            }
+        }
+
     }
 
-    .formulariopao{
-        padding-bottom: 40vh;
-    } 
+/* profesional */
+
+    .contenedorgrandeprofesional {
+        grid-template-areas: 
+        "itema"
+        "itemb"
+        "itemc"
+        "itemd"
+        "iteme"
+        "itemf"
+        "itemg"
+        "itemh"
+        "itemi"
+        "itemj"
+        "itemk"
+        "iteml";
+        grid-template-columns: 1fr;
+
+        /* Box título */
+        .itema {
+            margin-bottom: 0;
+            margin-left: 6vh;
+            a{
+                margin-left: 0;
+            }
+        }
+
+        /* Links Navegación Interna */
+        .itemb {
+            margin-top: 10vh;
+
+            ul {
+                padding-left: 0;
+            }
+
+            a {
+                font-size: 1em !important;
+            }
+        
+        }
+
+        /* posicion actual */
+        .itemc {
+            margin-top: 10vh;
+            margin-bottom: 0;
+        }
+
+        /* sr associate */
+        .iteme {
+            margin-top: 15vh;
+            padding-top: 10vh;
+            margin-left: -15vh;
+            margin-right: 5vh;
+        }
+
+        /* resource coordinator */
+        .itemf {
+            padding-top: 0;
+            margin-left: -15vh;
+            margin-right: 5vh;
+            margin-bottom: 5vh;
+        }
+
+        /* supervisora */
+        .itemg {
+            padding-top: 0;
+            margin-left: -15vh;
+            margin-right: 5vh;
+            margin-bottom: 5vh;
+        }
+
+        /* barista */
+        .itemh {
+            padding-top: 0;
+            margin-left: -15vh;
+            margin-right: 5vh;
+            margin-bottom: 5vh;
+        }
+
+        /* eventos */
+        .itemi {
+            padding-top: 0;
+            margin-left: -15vh;
+            margin-right: 5vh;
+
+            .boton-subir {
+                margin-right: 20vh;
+            }
+        }
+
+        /* habilidades */
+        .itemk {
+            padding-top: 15vh;
+            margin-bottom: 5vh;
+            margin-left: -15vh;
+            margin-right: 5vh;
+        }
+
+        .iteml {
+            padding-top: 0;
+            margin-bottom: 5vh;
+            margin-left: -15vh;
+            margin-right: 5vh;
+        }
+
+        .titulos {
+            margin-left: 20vh;
+        }
+        
+    }
+
+/* datos */
+
+    .contenedorgrandedatos {
+        grid-template-areas: 
+        "itema"
+        "itemb"
+        "itemd"
+        "itemc"
+        "iteme"
+        "itemf"
+        "itemg"
+        "itemh"
+        "itemi"
+        "itemj";
+        grid-template-columns: 1fr;
+
+        /* Box título */
+        .itema {
+            margin-bottom: 0;
+            margin-left: 6vh;
+            a{
+                margin-left: 0;
+            }
+        }
+
+        /* Links Navegación Interna */
+        .itemb {
+            margin-top: 10vh;
+
+            ul {
+                padding-left: 0;
+            }
+
+            a {
+                font-size: 1em !important;
+            }
+        
+        }
+
+        /* img excel */
+        .itemc {
+            margin-top: 0;
+            margin-bottom: 20vh;
+            padding-top: 0;
+        }
+
+        /* texto excel */
+        .itemd {
+            margin-top: 15vh;
+            padding-top: 10vh;
+            margin-bottom: 0;
+            margin-right: 5vh;
+
+        }
+
+        /* img sql */
+        .itemf {
+            margin-top: 0;
+            margin-bottom: 20vh;
+            padding-top: 0;
+        }
+
+        /* texto sql */
+        .iteme {
+            margin-top: 15vh;
+            padding-top: 10vh;
+            margin-bottom: 0;
+            margin-right: 5vh;
+
+        }
+
+        /* img powerbi */
+        .itemh {
+            margin-top: 0;
+            margin-bottom: 20vh;
+            padding-top: 0;
+        }
+
+        /* texto powerbi */
+        .itemg {
+            margin-top: 15vh;
+            padding-top: 10vh;
+            margin-right: 5vh;
+            margin-bottom: 0;
+
+        }
+
+        /* img python */
+        .itemj {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 50vh;
+        }
+
+        /* texto python */
+        .itemi {
+            margin-top: 15vh;
+            padding-top: 10vh;
+            margin-right: 5vh;
+            margin-bottom: 0;
+
+        }
+
+        .boton-subir {
+            margin-left: 35vw;
+        }
+        
+    }
+
+/* contacto */
+
+    .sectionmenu__c {
+        margin-top: -5vh;
+    }
+
+    .formulariopao {
+        padding-bottom: 30vh;
+    }
 
 }

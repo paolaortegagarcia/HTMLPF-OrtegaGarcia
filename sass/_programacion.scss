@@ -1,14 +1,16 @@
-.contenedorgrandeprofdatos {
+.contenedorgrandeprogramacion {
+    margin-top: 12vh;
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "itemb itema"
-    "itemd itemc"
+    "itema itemb"
+    "itemc itemd"
     "iteme itemf"
     "itemg itemh"
     "itemi itemj";
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 1fr 3fr;
 
+    /* Box título */
     .itema {
         margin-top: 25vh;
         margin-bottom: 40vh;
@@ -28,37 +30,12 @@
         }
     }
 
-    .profsuelto {
-        margin-bottom: 2vh;
-    }
-
+    /* Links Navegación Interna */
     .itemb {
         grid-area: itemb;
-        margin-top: 30vh;
+        margin-top: 27vh;
 
         .linksinternos {
-
-            ul {
-                margin-top: 2vh;
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                gap: 15vw;
-
-                a {
-                    font-family: $text-font;
-                    font-size: 1.5em;
-                    color: black;
-
-                    &:hover {
-                        color: #b1e5f2;
-                    }
-                }
-            }
-            
-        }
-
-        .linksinternosdat {
             ul {
                 margin-top: 2vh;
                 list-style: none;
@@ -75,35 +52,34 @@
                 }
             }
         }
-
         
     }
 
+    /* img html */
     .itemc {
         grid-area: itemc;
-        margin-top: 20vh;
-        margin-bottom: 20vh;
-        font-family: $text-font;
-
+        margin-top: 15vh;
         img {
             width: 30vw;
         }
     }
 
+    /* texto html */
     .itemd {
         grid-area: itemd;
         padding-top: 20vh;
         margin-bottom: 40vh;
+        margin-right: 10vh;
 
-        .titulos, .fechas {
+        .titulos {
             font-family: $title-font;
+            font-size: 8vh;
             margin-bottom: 4vh;
-        }
 
-        p {
-            font-family: $text-font;
-            font-size: 0.8em;
-            text-align: start;
+            &:hover {
+                text-decoration: underline #b1e5f2;
+            }
+            
         }
 
         ul {
@@ -114,49 +90,39 @@
         }
     }
 
-
+    /* img javascript */
     .iteme {
         grid-area: iteme;
-        padding-top: 20vh;
-
-        .titulos, .fechas, p, h4 {
-            font-family: $title-font;
-        }
-
-        p {
-            font-family: $text-font;
-            font-size: 0.8em;
-            text-align: start;
-        }
-
-        ul {
-            list-style: none;
-            li{
-                font-family: $text-font;
-            }
+        margin-top: 20vh;
+        img {
+            width: 30vw;
         }
     }
 
+    /* texto javascript */
     .itemf {
         grid-area: itemf;
-        margin-bottom: 20vh;
-        padding-top: 20vh;
+        margin-bottom: 60vh;
+        text-align: start;
+        padding-top: 30vh;
+        margin-right: 10vh;
 
-        img {
-            width: 30vw;
-        }
-
-        .fechas {
+        .titulos {
             font-family: $title-font;
-        }
+            font-size: 8vh;
+            margin-bottom: 4vh;
+            text-align: center;
 
-        h4 {
-            font-family: $title-font;
+            &:hover {
+                text-decoration: underline #b1e5f2;
+            }
+            
         }
 
         ul {
             font-family: $text-font;
-            text-align: center;
+            text-align: start;
+            font-size: 0.8em;
                 li {
                     font-family: $text-font;
                     list-style: none;
@@ -166,49 +132,39 @@
         }
     }
 
+    /* img react */
     .itemg {
         grid-area: itemg;
-        margin-bottom: 20vh;
-
-        .fechas {
-            font-family: $title-font;
-        }
-
-        h4 {
-            font-family: $title-font;
-        }
-
-        ul {
-            font-family: $text-font;
-            text-align: center;
-                li {
-                    font-family: $text-font;
-                    list-style: none;
-                    text-align: center;
-                }
-
+        margin-top: 20vh;
+        img {
+            width: 40vw;
         }
     }
 
+    /* texto react */
     .itemh {
         grid-area: itemh;
-        margin-bottom: 50vh;
+        margin-bottom: 60vh;
+        text-align: start;
+        padding-top: 30vh;
+        margin-right: 10vh;
 
-        img {
-            width: 30vw;
-        }
-
-        .fechas {
+        .titulos {
             font-family: $title-font;
-        }
+            font-size: 8vh;
+            margin-bottom: 4vh;
+            text-align: center;
 
-        h4 {
-            font-family: $title-font;
+            &:hover {
+                text-decoration: underline #b1e5f2;
+            }
+            
         }
 
         ul {
             font-family: $text-font;
-            text-align: center;
+            text-align: start;
+            font-size: 0.8em;
                 li {
                     font-family: $text-font;
                     list-style: none;
@@ -218,49 +174,39 @@
         }
     }
 
+    /* img backend */
     .itemi {
         grid-area: itemi;
-        margin-bottom: 20vh;
-
-        .fechas {
-            font-family: $title-font;
-        }
-
-        h4 {
-            font-family: $title-font;
-        }
-
-        ul {
-            font-family: $text-font;
-            text-align: center;
-                li {
-                    font-family: $text-font;
-                    list-style: none;
-                    text-align: center;
-                }
-
+        margin-top: 20vh;
+        img {
+            width: 40vw;
         }
     }
 
+    /* texto backend */
     .itemj {
         grid-area: itemj;
-        margin-bottom: 50vh;
+        margin-bottom: 60vh;
+        text-align: start;
+        padding-top: 30vh;
+        margin-right: 10vh;
 
-        img {
-            width: 30vw;
-        }
-        
-        .fechas {
+        .titulos {
             font-family: $title-font;
-        }
+            font-size: 8vh;
+            margin-bottom: 4vh;
+            text-align: center;
 
-        h4 {
-            font-family: $title-font;
+            &:hover {
+                text-decoration: underline #b1e5f2;
+            }
+            
         }
 
         ul {
             font-family: $text-font;
-            text-align: center;
+            text-align: start;
+            font-size: 0.8em;
                 li {
                     font-family: $text-font;
                     list-style: none;
@@ -269,6 +215,7 @@
 
         }
     }
+
 }
 
 
